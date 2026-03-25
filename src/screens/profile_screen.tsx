@@ -8,21 +8,21 @@ export default function ProfileScreen() {
             style={styles.avatar}
             />
 
-            <Text style={styles.name}>Ana Paula Oliveira</Text>
-            <Text style={styles.email}>anapaula@email.com</Text>
+            <Text style={styles.name}>Caio Serpa</Text>
+            <Text style={styles.email}>serpacr@outlook.com</Text>
 
             <View style={styles.card}>
             <Text style={styles.cardTitle}>Informações</Text>
-            <Text style={styles.cardText}>Pedidos realizados: 12</Text>
-            <Text style={styles.cardText}>Favoritos: 8</Text>
-            <Text style={styles.cardText}>Membro desde: 2024</Text>
+            <Text style={styles.cardText}>Pedidos realizados: 5</Text>
+            <Text style={styles.cardText}>Favoritos: 3</Text>
+            <Text style={styles.cardText}>Membro desde: 2019</Text>
             </View>
 
             <View style={styles.card}>
             <Text style={styles.cardTitle}>Endereço principal</Text>
-            <Text style={styles.cardText}>Rua Exemplo, 123</Text>
-            <Text style={styles.cardText}>São Paulo - SP</Text>
-            <Text style={styles.cardText}>CEP 00000-000</Text>
+            <Text style={styles.cardText}>Rua Chapolin Colorado, 000</Text>
+            <Text style={styles.cardText}>Acre - AC</Text>
+            <Text style={styles.cardText}>CEP 51515-151</Text>
             </View>
         </View>
     );

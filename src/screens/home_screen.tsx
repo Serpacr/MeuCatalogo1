@@ -12,24 +12,24 @@ export default function HomeScreen() {
     const products: Product[] = [
         {
             id: 1,
-            name: "Mouse",
-            price: 19.99,
-            picture: require("../../assets/mouse.jpeg"),
-            description: "Mouse sem fio com conexão estável e design ergonômico.",
+            name: "God of War Ragnarök",
+            price: 249.99,
+            picture: require("../../assets/gow2.jpg"),
+            description: "Kratos e Atreus enfrentam o destino em uma jornada épica pelos reinos nórdicos.",
         },
         {
             id: 2,
-            name: "Teclado",
-            price: 29.99,
-            picture: require("../../assets/teclado.jpeg"),
-            description: "Teclado mecânico compacto com ótimo feedback tátil.",
+            name: "GTA V",
+            price: 149.99,
+            picture: require("../../assets/GTAV.jpg"),
+            description: "Explore Los Santos em um mundo aberto cheio de ação, crimes e liberdade.",
         },
         {
             id: 3,
-            name: "Headset",
-            price: 39.99,
-            picture: require("../../assets/headset.jpeg"),
-            description: "Headset com cancelamento de ruído e som imersivo.",
+            name: "The Witcher 3",
+            price: 99.99,
+            picture: require("../../assets/TW3.jpg"),
+            description: "Assuma o papel de Geralt de Rívia em um RPG vasto e cheio de escolhas.",
         },
     ];
 
